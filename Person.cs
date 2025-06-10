@@ -105,3 +105,13 @@ public class Person {
     }
 }
 
+
+  /*
+  Person.displayListPerson(Person.createListPerson());
+  Console.WriteLine("----------------------------------------");
+  Person.displayListPersonByLetter(Person.createListPerson(), 'H');
+  Console.WriteLine("----------------------------------------");
+  Person.displayListPersonUnderAge(Person.createListPerson(), 30);
+  Console.WriteLine("----------------------------------------");
+  Console.WriteLine("The average age of this group is : {0}",                 Person.averageAge(Person.createListPerson()));
+  */

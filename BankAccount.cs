@@ -41,3 +41,14 @@ public class BankAccount {
     Console.WriteLine("Account Number: {0}, Balance: {1}, Owner: {2}", this.accountNumber, this.balance, this.owner.Name);
   }
 }
+
+/* test inside main program
+Person p = new Person("John", 25);
+p.SayHello();
+BankAccount ba = new BankAccount("123456789", 1000, p);
+ba.DisplayAccountInfo();
+ba.Deposit(500);
+ba.DisplayAccountInfo();
+ba.Withdraw(1200);
+ba.DisplayAccountInfo();
+*/
